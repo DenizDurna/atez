@@ -1,0 +1,87 @@
+.subscriber {
+    width: 90%;
+    margin: 5.75rem auto 23.625rem;
+}
+
+.subscriber-img {
+    width: 9.3125rem;
+    height: 9.3125rem;
+    margin-right: 3.556rem;
+}
+
+.subscriber h2 {
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: var(--blue, deepskyblue);
+    margin-left: 0.625rem;
+}
+
+.subscriber p {
+    width: 21.875rem;
+    color: #7FC4FD;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin: 1.25rem 0.625rem;
+}
+
+.subscriber-mail {
+    width: 27.625rem;
+    height: 3.312rem;
+    background-color: var(--white);
+    border-radius: 1.5625rem;
+    padding-left: 1.875rem;
+}
+
+.subscriber input {
+    width: 18.75rem;
+    height: 100%;
+    border: 0px;
+    color: var(--blue, deepskyblue);
+}
+
+.subscriber input::placeholder {
+    color: var(--blue, deepskyblue);
+}
+
+.subscriber-mail button {
+    width: 3.875rem;
+    height: 2.25rem;
+    color: var(--blue, deepskyblue);
+    border-radius: 1.4375rem;
+    border-color: var(--ice_blue, aliceblue);
+}
+
+.top-page {
+    width: 5rem;
+    height: 5rem;
+    bottom: -18.75rem;
+    right: 10%;
+    border: var(--ice_blue, aliceblue) solid 0.125rem;
+}
+
+.target_top {
+    width: 2rem;
+    height: 2rem;
+    border: 0px;
+}
+
+@media (max-width:800px) {
+    .subscriber {
+        text-align: center;
+        margin-bottom: 17rem;
+    }
+
+    .subscriber-text {
+        margin-top: 1.5rem;
+        align-items: center;
+    }
+
+    .subscriber h2 {
+        margin-left: 0;
+    }
+
+    .top-page {
+        bottom: -35vw;
+        right: 1vw;
+    }
+}

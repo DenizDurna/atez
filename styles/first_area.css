@@ -1,0 +1,127 @@
+.main_image {
+    background-image: linear-gradient(to right, #523B5D, #F4008E);
+    color: var(--white);
+    height: 48.25rem;
+    margin: 1.25rem;
+    border-radius: 1.875rem;
+    overflow: hidden;
+}
+
+.mask-group-1 {
+    width: 87.5rem;
+    height: 48.125rem;
+    padding: 6.188rem 5.25rem;
+}
+
+.hero-header h1 {
+    font-family: var(--klavika, sans-serif);
+    font-size: 2.813rem;
+    font-weight: 500;
+    margin-bottom: 2.688rem;
+    line-height: 3.937rem;
+}
+
+.hero-header span {
+    font-weight: bold;
+}
+
+.hero-header p {
+    width: 31.25rem;
+    font-size: 1.25rem;
+}
+
+header button {
+    height: 3.313rem;
+    width: 8.375rem;
+    margin-top: 2.813rem;
+    font-family: var(--klavika, sans-serif);
+    font-weight: bold;
+    color: var(--white);
+    border-color: var(--ice_blue, aliceblue);
+    border-radius: 1.688rem;
+}
+
+.path-240 {
+    background: url('../images/Path\ 240.png');
+    background-size: 100%;
+    width: 1102.06px;
+    height: 654.29px;
+    top: 140px;
+    left: 200px;
+    z-index: 2;
+}
+
+.success2 {
+    background: url('../images/Success\ 2.png');
+    top: 310px;
+    left: 255px;
+    width: 473px;
+    height: 698px;
+    z-index: 3;
+}
+
+.vr2 {
+    background: url('../images/VR\ 2.png');
+    top: 60px;
+    left: 840px;
+    width: 426px;
+    height: 719px;
+    z-index: 1;
+}
+
+.group-99 {
+    background: linear-gradient(to right, #0093FF, #963DC1);
+    width: 33.875rem;
+    height: 13.625rem;
+    bottom: 3.6rem;
+    right: 8.5rem;
+    padding: 2.063rem 2.563rem 2.125rem 2.125rem;
+    border-radius: 1.25rem;
+    z-index: 4;
+}
+
+.group-99 h3 {
+    font-family: var(--klavika, sans-serif);
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+
+.group-99 p {
+    width: 23.813rem;
+    font-weight: 400;
+    margin-bottom: 1.75rem;
+}
+
+.group-99 a {
+    color: var(--white);
+    font-family: var(--klavika, sans-serif);
+    font-weight: 500;
+    justify-content: end;
+}
+
+.group-99 button {
+    width: 3.875rem;
+    height: 2rem;
+    margin-left: 1rem;
+    color: var(--white);
+    border-radius: 1.688rem;
+}
+
+@media (max-width:800px) {
+
+    .path-240,
+    .success2,
+    .vr2 {
+        display: none;
+    }
+
+    .mask-group-1 {
+        margin-left: 2rem;
+    }
+
+    .group-99 {
+        width: 28rem;
+        left: 6rem;
+        bottom: 2rem;
+    }
+}

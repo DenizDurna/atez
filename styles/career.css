@@ -1,0 +1,162 @@
+.positions {
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1160px;
+    margin: 68px auto 0;
+    color: var(--blue, deepskyblue);
+}
+
+.positions-list {
+    width: 21.875rem;
+    margin-right: 1.875rem;
+}
+
+.positions-list h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5.25rem;
+}
+
+.positions-title li {
+    margin: 1rem 0px;
+    padding-left: 1.875rem;
+    font-weight: bold;
+}
+
+.positions-title li[name="active"] {
+    justify-content: flex-start;
+    width: 21.875rem;
+    height: 3rem;
+    border: 0.06rem solid;
+    border-radius: 1.75rem;
+    font-weight: 500;
+}
+
+.positions-title span {
+    width: 2.25rem;
+    height: 1.375rem;
+    background-color: var(--blue, deepskyblue);
+    color: var(--white);
+    margin-left: 0.937rem;
+    font-size: 0.625rem;
+    font-weight: 500;
+    border-radius: 0.687rem;
+}
+
+.pages {
+    width: 19.125rem;
+    height: 2.5rem;
+    margin-top: 6.25rem;
+    z-index: 1;
+}
+
+.pages a {
+    color: var(--ice_blue, aliceblue);
+    font-weight: bold;
+}
+
+.pages .fa-solid {
+    font-size: 1.2rem;
+}
+
+.pages li {
+    font-size: 0.75em;
+    padding-left: 2.5rem;
+    font-weight: bold;
+}
+
+.active-pages-buton {
+    width: 2.5em;
+    height: 2.5em;
+    background-color: var(--blue, deepskyblue);
+    border-radius: 50%;
+    margin: 0 -1rem;
+}
+
+.positions-comment {
+    background-color: var(--white);
+    max-width: 704px;
+    padding: 3.75rem;
+    border-radius: 1.875em;
+    margin-bottom: 25em;
+}
+
+.positions-comment span {
+    width: 5.625rem;
+    height: 1.563rem;
+    background-color: var(--blue, deepskyblue);
+    color: var(--white);
+    font-family: var(--klavika, sans-serif);
+    font-size: 0.875rem;
+    font-weight: bold;
+    border-radius: 0.813em;
+    margin-bottom: 1.438rem;
+}
+
+.positions-comment h3 {
+    font-weight: var(--klavika, sans-serif);
+    font-size: 2.5em;
+}
+
+.positions-comment>p:first-of-type {
+    max-width: 392px;
+    margin: 1.438rem 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.positions-comment>p:last-of-type {
+    font-size: 1rem;
+}
+
+.positions-comment a {
+    margin-top: 3.75rem;
+    color: var(--blue, deepskyblue);
+    font-family: var(--klavika, sans-serif);
+    font-weight: bold;
+    justify-content: end;
+}
+
+.positions-comment button {
+    width: 8.75em;
+    height: 3.3125em;
+    padding: 0px;
+    border-color: var(--ice_blue, aliceblue);
+    color: var(--blue, deepskyblue);
+    border-radius: 1.6875em;
+}
+
+.Launch-2 {
+    width: 310px;
+    height: 478px;
+    background: url('../images/Launch 2.png');
+    bottom: -350px;
+    left: -255px;
+}
+
+@media (max-width:800px) {
+    .positions {
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .positions-list {
+        margin-bottom: 2.5rem;
+    }
+
+    .positions-list h2 {
+        margin-bottom: 1em;
+    }
+
+    .pages {
+        margin-top: 2rem;
+    }
+
+    .positions-comment {
+        margin-bottom: 0;
+    }
+
+    .Launch-2 {
+        display: none;
+    }
+}
