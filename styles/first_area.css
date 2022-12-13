@@ -107,6 +107,13 @@ header button {
     border-radius: 1.688rem;
 }
 
+.group-99 .fa-solid{
+    color: var(--white);
+}
+
+
+
+
 @media (max-width:800px) {
 
     .path-240,
